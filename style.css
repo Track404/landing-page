@@ -1,12 +1,20 @@
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 a{
 color: black;
 text-decoration: none;
 color: #e5e7eb;
+
+}
+
+img{
+border: 2px solid black;
+border-radius: 25px;
+
 
 }
 
@@ -19,12 +27,15 @@ button{
  font-size: 16px;
 }
 
+
+
 .header{
     background-color: #1F2937;
     color: #e5e7eb;
     margin: 0;
     display: flex;
     flex-direction: column;
+    flex: 1;
     
     
     
@@ -44,7 +55,7 @@ button{
     width: auto;
     justify-content: space-between;
     padding: 30px;
-    margin: 100px;
+    margin: 200px;
     
     
 }
@@ -60,5 +71,49 @@ button{
 #header-content{
     height: 300px;
     width:300px;
+}
+
+.info{
+    
+    text-align: center;
+   
+}
+
+
+.square{
+    display: flex;
+    gap: 2rem;
+    
+
+}
+
+.citation{
+ background-color: #E5E7EB;
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ 
+}
+
+.notification{
+background-color: #3882F6;
+color:#E5E7EB;
+border: 1px solid #3882F6;
+border-radius: 12px;
+padding: 10px;
+margin: 75px;
+margin-left: 100px;
+margin-right: 100px;
+display: flex;
+justify-content: space-between;
+padding: 10px;
+padding-left: 100px;
+padding-right: 100px;
+}
+
+.footer{
+background-color: #1F2937;
+color: #E5E7EB;
+text-align: center;
 }
 
