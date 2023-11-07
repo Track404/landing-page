@@ -4,6 +4,7 @@ body{
     flex-direction: column;
     margin: 0;
     flex: 1;
+    flex-wrap: wrap;
 }
 
 a{
@@ -44,7 +45,7 @@ button{
     margin: 0;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    
     
 }
 
